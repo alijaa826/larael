@@ -2,12 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kursus Online</title>
-    @variant('resources/css/app')
+    @vite('resources/css/app.css')
 </head>
-<body
-class="bg-gray-100 text-gray-800">
+<body class="bg-gray-100 text-gray-800">
     <nav class="bg-white shadow p-4 flex justify-between">
         <h1 class="text-xl font-bold"><a href="/">Kursus Online</a></h1>
         <div>
